@@ -1,4 +1,5 @@
 #include "wled.h"
+#include "stairway-wipe-usermod-v2.h" 
 /*
  * Register your v2 usermods here!
  *   (for v1 usermods using just usermod.cpp, you can ignore this file)
@@ -13,6 +14,7 @@
 #ifdef USERMOD_DALLASTEMPERATURE
 #include "../usermods/Temperature/usermod_temperature.h"
 #endif
+
 
 //#include "usermod_v2_empty.h"
 
@@ -58,6 +60,7 @@ void registerUsermods()
    * \/ \/ \/
    */
   //usermods.add(new MyExampleUsermod());
+  usermods.add(new StairwayWipeUsermod());
   
   #ifdef USERMOD_DALLASTEMPERATURE
   usermods.add(new UsermodTemperature());
