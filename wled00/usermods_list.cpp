@@ -125,7 +125,7 @@ void registerUsermods()
   
   #ifdef USERMOD_DALLASTEMPERATURE
   usermods.add(new UsermodTemperature());
-  //usermods.add(new MyExampleUsermod());
+  #endif
 
   #ifdef USERMOD_BATTERY_STATUS_BASIC
   usermods.add(new UsermodBatteryBasic());
