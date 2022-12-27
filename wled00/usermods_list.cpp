@@ -1,5 +1,4 @@
 #include "wled.h"
-#include "stairway-wipe-usermod-v2.h" 
 /*
  * Register your v2 usermods here!
  *   (for v1 usermods using just usermod.cpp, you can ignore this file)
@@ -184,6 +183,8 @@
 #ifdef USERMOD_SHT
 #include "../usermods/sht/usermod_sht.h"
 #endif
+
+#include "../usermods/stairway_wipe_basic/stairway-wipe-usermod-v2.h"
 
 
 void registerUsermods()

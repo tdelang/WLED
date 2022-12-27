@@ -117,6 +117,9 @@ class StairwayWipeUsermod : public Usermod {
     previousUserVar0 = 0;
     }
 
+    void setup() 
+    {
+    }
 
 
    //More methods can be added in the future, this example will then be extended.
